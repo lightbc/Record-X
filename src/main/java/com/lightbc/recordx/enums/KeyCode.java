@@ -1,0 +1,167 @@
+package com.lightbc.recordx.enums;
+
+import org.jnativehook.keyboard.NativeKeyEvent;
+
+import java.awt.event.KeyEvent;
+
+/**
+ * NativeKeyEvent 映射 KeyEvent
+ */
+public enum KeyCode {
+    VK_ESCAPE(NativeKeyEvent.VC_ESCAPE, KeyEvent.VK_ESCAPE),
+    VK_F1(NativeKeyEvent.VC_F1, KeyEvent.VK_F1),
+    VK_F2(NativeKeyEvent.VC_F2, KeyEvent.VK_F2),
+    VK_F3(NativeKeyEvent.VC_F3, KeyEvent.VK_F3),
+    VK_F4(NativeKeyEvent.VC_F4, KeyEvent.VK_F4),
+    VK_F5(NativeKeyEvent.VC_F5, KeyEvent.VK_F5),
+    VK_F6(NativeKeyEvent.VC_F6, KeyEvent.VK_F6),
+    VK_F7(NativeKeyEvent.VC_F7, KeyEvent.VK_F7),
+    VK_F8(NativeKeyEvent.VC_F8, KeyEvent.VK_F8),
+    VK_F9(NativeKeyEvent.VC_F9, KeyEvent.VK_F9),
+    VK_F10(NativeKeyEvent.VC_F10, KeyEvent.VK_F10),
+    VK_F11(NativeKeyEvent.VC_F11, KeyEvent.VK_F11),
+    VK_F12(NativeKeyEvent.VC_F12, KeyEvent.VK_F12),
+    VK_F13(NativeKeyEvent.VC_F13, KeyEvent.VK_F13),
+    VK_F14(NativeKeyEvent.VC_F14, KeyEvent.VK_F14),
+    VK_F15(NativeKeyEvent.VC_F15, KeyEvent.VK_F15),
+    VK_F16(NativeKeyEvent.VC_F16, KeyEvent.VK_F16),
+    VK_F17(NativeKeyEvent.VC_F17, KeyEvent.VK_F17),
+    VK_F18(NativeKeyEvent.VC_F18, KeyEvent.VK_F18),
+    VK_F19(NativeKeyEvent.VC_F19, KeyEvent.VK_F19),
+    VK_F20(NativeKeyEvent.VC_F20, KeyEvent.VK_F20),
+    VK_F21(NativeKeyEvent.VC_F21, KeyEvent.VK_F21),
+    VK_F22(NativeKeyEvent.VC_F22, KeyEvent.VK_F22),
+    VK_F23(NativeKeyEvent.VC_F23, KeyEvent.VK_F23),
+    VK_F24(NativeKeyEvent.VC_F24, KeyEvent.VK_F24),
+    VK_BACK_QUOTE(NativeKeyEvent.VC_BACKQUOTE, KeyEvent.VK_BACK_QUOTE),
+    VK_1(NativeKeyEvent.VC_1, KeyEvent.VK_1),
+    VK_2(NativeKeyEvent.VC_2, KeyEvent.VK_2),
+    VK_3(NativeKeyEvent.VC_3, KeyEvent.VK_3),
+    VK_4(NativeKeyEvent.VC_4, KeyEvent.VK_4),
+    VK_5(NativeKeyEvent.VC_5, KeyEvent.VK_5),
+    VK_6(NativeKeyEvent.VC_6, KeyEvent.VK_6),
+    VK_7(NativeKeyEvent.VC_7, KeyEvent.VK_7),
+    VK_8(NativeKeyEvent.VC_8, KeyEvent.VK_8),
+    VK_9(NativeKeyEvent.VC_9, KeyEvent.VK_9),
+    VK_0(NativeKeyEvent.VC_0, KeyEvent.VK_0),
+    VK_MINUS(NativeKeyEvent.VC_MINUS, KeyEvent.VK_MINUS),
+    VK_EQUALS(NativeKeyEvent.VC_EQUALS, KeyEvent.VK_EQUALS),
+    VK_BACKSPACE(NativeKeyEvent.VC_BACKSPACE, KeyEvent.VK_BACK_SPACE),
+    VK_TAB(NativeKeyEvent.VC_TAB, KeyEvent.VK_TAB),
+    VK_CAPS_LOCK(NativeKeyEvent.VC_CAPS_LOCK, KeyEvent.VK_CAPS_LOCK),
+    VK_A(NativeKeyEvent.VC_A, KeyEvent.VK_A),
+    VK_B(NativeKeyEvent.VC_B, KeyEvent.VK_B),
+    VK_C(NativeKeyEvent.VC_C, KeyEvent.VK_C),
+    VK_D(NativeKeyEvent.VC_D, KeyEvent.VK_D),
+    VK_E(NativeKeyEvent.VC_E, KeyEvent.VK_E),
+    VK_F(NativeKeyEvent.VC_F, KeyEvent.VK_F),
+    VK_G(NativeKeyEvent.VC_G, KeyEvent.VK_G),
+    VK_H(NativeKeyEvent.VC_H, KeyEvent.VK_H),
+    VK_I(NativeKeyEvent.VC_I, KeyEvent.VK_I),
+    VK_J(NativeKeyEvent.VC_J, KeyEvent.VK_J),
+    VK_K(NativeKeyEvent.VC_K, KeyEvent.VK_K),
+    VK_L(NativeKeyEvent.VC_L, KeyEvent.VK_L),
+    VK_M(NativeKeyEvent.VC_M, KeyEvent.VK_M),
+    VK_N(NativeKeyEvent.VC_N, KeyEvent.VK_N),
+    VK_O(NativeKeyEvent.VC_O, KeyEvent.VK_O),
+    VK_P(NativeKeyEvent.VC_P, KeyEvent.VK_P),
+    VK_Q(NativeKeyEvent.VC_Q, KeyEvent.VK_Q),
+    VK_R(NativeKeyEvent.VC_R, KeyEvent.VK_R),
+    VK_S(NativeKeyEvent.VC_S, KeyEvent.VK_S),
+    VK_T(NativeKeyEvent.VC_T, KeyEvent.VK_T),
+    VK_U(NativeKeyEvent.VC_U, KeyEvent.VK_U),
+    VK_V(NativeKeyEvent.VC_V, KeyEvent.VK_V),
+    VK_W(NativeKeyEvent.VC_W, KeyEvent.VK_W),
+    VK_X(NativeKeyEvent.VC_X, KeyEvent.VK_X),
+    VK_Y(NativeKeyEvent.VC_Y, KeyEvent.VK_Y),
+    VK_Z(NativeKeyEvent.VC_Z, KeyEvent.VK_Z),
+    VK_OPEN_BRACKET(NativeKeyEvent.VC_OPEN_BRACKET, KeyEvent.VK_OPEN_BRACKET),
+    VK_CLOSE_BRACKET(NativeKeyEvent.VC_CLOSE_BRACKET, KeyEvent.VK_CLOSE_BRACKET),
+    VK_BACK_SLASH(NativeKeyEvent.VC_BACK_SLASH, KeyEvent.VK_BACK_SLASH),
+    VK_SEMICOLON(NativeKeyEvent.VC_SEMICOLON, KeyEvent.VK_SEMICOLON),
+    VK_QUOTE(NativeKeyEvent.VC_QUOTE, KeyEvent.VK_QUOTE),
+    VK_ENTER(NativeKeyEvent.VC_ENTER, KeyEvent.VK_ENTER),
+    VK_COMMA(NativeKeyEvent.VC_COMMA, KeyEvent.VK_COMMA),
+    VK_PERIOD(NativeKeyEvent.VC_PERIOD, KeyEvent.VK_PERIOD),
+    VK_SLASH(NativeKeyEvent.VC_SLASH, KeyEvent.VK_SLASH),
+    VK_SPACE(NativeKeyEvent.VC_SPACE, KeyEvent.VK_SPACE),
+    VK_PRINTSCREEN(NativeKeyEvent.VC_PRINTSCREEN, KeyEvent.VK_PRINTSCREEN),
+    VK_SCROLL_LOCK(NativeKeyEvent.VC_SCROLL_LOCK, KeyEvent.VK_SCROLL_LOCK),
+    VK_PAUSE(NativeKeyEvent.VC_PAUSE, KeyEvent.VK_PAUSE),
+    VK_INSERT(NativeKeyEvent.VC_INSERT, KeyEvent.VK_INSERT),
+    VK_DELETE(NativeKeyEvent.VC_DELETE, KeyEvent.VK_DELETE),
+    VK_HOME(NativeKeyEvent.VC_HOME, KeyEvent.VK_HOME),
+    VK_END(NativeKeyEvent.VC_END, KeyEvent.VK_END),
+    VK_PAGE_UP(NativeKeyEvent.VC_PAGE_UP, KeyEvent.VK_PAGE_UP),
+    VK_PAGE_DOWN(NativeKeyEvent.VC_PAGE_DOWN, KeyEvent.VK_PAGE_DOWN),
+    VK_UP(NativeKeyEvent.VC_UP, KeyEvent.VK_UP),
+    VK_LEFT(NativeKeyEvent.VC_LEFT, KeyEvent.VK_LEFT),
+    VK_CLEAR(NativeKeyEvent.VC_CLEAR, KeyEvent.VK_CLEAR),
+    VK_RIGHT(NativeKeyEvent.VC_RIGHT, KeyEvent.VK_RIGHT),
+    VK_DOWN(NativeKeyEvent.VC_DOWN, KeyEvent.VK_DOWN),
+    VK_NUM_LOCK(NativeKeyEvent.VC_NUM_LOCK, KeyEvent.VK_NUM_LOCK),
+    VK_SEPARATOR(NativeKeyEvent.VC_SEPARATOR, KeyEvent.VK_SEPARATOR),
+    VK_SHIFT(NativeKeyEvent.VC_SHIFT, KeyEvent.VK_SHIFT),
+    VK_CONTROL(NativeKeyEvent.VC_CONTROL, KeyEvent.VK_CONTROL),
+    VK_ALT(NativeKeyEvent.VC_ALT, KeyEvent.VK_ALT),
+    VK_META(NativeKeyEvent.VC_META, KeyEvent.VK_META),
+    VK_CONTEXT_MENU(NativeKeyEvent.VC_CONTEXT_MENU, KeyEvent.VK_CONTEXT_MENU),
+    /*VK_POWER(NativeKeyEvent.VC_POWER, KeyEvent.VK_POWER),
+    VK_SLEEP(NativeKeyEvent.VC_SLEEP, KeyEvent.VK_SLEEP),
+    VK_WAKE(NativeKeyEvent.VC_WAKE, KeyEvent.VK_WAKE),
+    VK_MEDIA_PLAY(NativeKeyEvent.VC_MEDIA_PLAY, KeyEvent.VK_MEDIA_PLAY),
+    VK_MEDIA_STOP(NativeKeyEvent.VC_MEDIA_STOP, KeyEvent.VK_MEDIA_STOP),
+    VK_MEDIA_PREVIOUS(NativeKeyEvent.VC_MEDIA_PREVIOUS, KeyEvent.VK_MEDIA_PREVIOUS),
+    VK_MEDIA_NEXT(NativeKeyEvent.VC_MEDIA_NEXT, KeyEvent.VK_MEDIA_NEXT),
+    VK_MEDIA_SELECT(NativeKeyEvent.VC_MEDIA_SELECT, KeyEvent.VK_MEDIA_SELECT),
+    VK_MEDIA_EJECT(NativeKeyEvent.VC_MEDIA_EJECT, KeyEvent.VK_MEDIA_EJECT),
+    VK_VOLUME_MUTE(NativeKeyEvent.VC_VOLUME_MUTE, KeyEvent.VK_VOLUME_MUTE),
+    VK_VOLUME_UP(NativeKeyEvent.VC_VOLUME_UP, KeyEvent.VK_VOLUME_UP),
+    VK_VOLUME_DOWN(NativeKeyEvent.VC_VOLUME_DOWN, KeyEvent.VK_VOLUME_DOWN),
+    VK_APP_MAIL(NativeKeyEvent.VC_APP_MAIL, KeyEvent.VK_APP_MAIL),
+    VK_APP_CALCULATOR(NativeKeyEvent.VC_APP_CALCULATOR, KeyEvent.VK_APP_CALCULATOR),
+    VK_APP_MUSIC(NativeKeyEvent.VC_APP_MUSIC, KeyEvent.VK_APP_MUSIC),
+    VK_APP_PICTURES(NativeKeyEvent.VC_APP_PICTURES, KeyEvent.VK_APP_PICTURES),
+    VK_BROWSER_SEARCH(NativeKeyEvent.VC_BROWSER_SEARCH, KeyEvent.VK_BROWSER_SEARCH),
+    VK_BROWSER_HOME(NativeKeyEvent.VC_BROWSER_HOME, KeyEvent.VK_BROWSER_HOME),
+    VK_BROWSER_BACK(NativeKeyEvent.VC_BROWSER_BACK, KeyEvent.VK_BROWSER_BACK),
+    VK_BROWSER_FORWARD(NativeKeyEvent.VC_BROWSER_FORWARD, KeyEvent.VK_BROWSER_FORWARD),
+    VK_BROWSER_STOP(NativeKeyEvent.VC_BROWSER_STOP, KeyEvent.VK_BROWSER_STOP),
+    VK_BROWSER_REFRESH(NativeKeyEvent.VC_BROWSER_REFRESH, KeyEvent.VK_BROWSER_REFRESH),
+    VK_BROWSER_FAVORITES(NativeKeyEvent.VC_BROWSER_FAVORITES, KeyEvent.VK_BROWSER_FAVORITES),*/
+    VK_KATAKANA(NativeKeyEvent.VC_KATAKANA, KeyEvent.VK_KATAKANA),
+    VK_UNDERSCORE(NativeKeyEvent.VC_UNDERSCORE, KeyEvent.VK_UNDERSCORE),
+    /*VK_FURIGANA(NativeKeyEvent.VC_FURIGANA, KeyEvent.VK_FURIGANA),*/
+    VK_KANJI(NativeKeyEvent.VC_KANJI, KeyEvent.VK_KANJI),
+    VK_HIRAGANA(NativeKeyEvent.VC_HIRAGANA, KeyEvent.VK_HIRAGANA),
+    /*VK_YEN(NativeKeyEvent.VC_YEN, KeyEvent.VK_YEN),
+    VK_SUN_HELP(NativeKeyEvent.VC_SUN_HELP, KeyEvent.VK_SUN_HELP),
+    VK_SUN_STOP(NativeKeyEvent.VC_SUN_STOP, KeyEvent.VK_SUN_STOP),
+    VK_SUN_PROPS(NativeKeyEvent.VC_SUN_PROPS, KeyEvent.VK_SUN_PROPS),
+    VK_SUN_FRONT(NativeKeyEvent.VC_SUN_FRONT, KeyEvent.VK_SUN_FRONT),
+    VK_SUN_OPEN(NativeKeyEvent.VC_SUN_OPEN, KeyEvent.VK_SUN_OPEN),
+    VK_SUN_FIND(NativeKeyEvent.VC_SUN_FIND, KeyEvent.VK_SUN_FIND),
+    VK_SUN_AGAIN(NativeKeyEvent.VC_SUN_AGAIN, KeyEvent.VK_SUN_AGAIN),
+    VK_SUN_UNDO(NativeKeyEvent.VC_SUN_UNDO, KeyEvent.VK_SUN_UNDO),
+    VK_SUN_COPY(NativeKeyEvent.VC_SUN_COPY, KeyEvent.VK_SUN_COPY),
+    VK_SUN_INSERT(NativeKeyEvent.VC_SUN_INSERT, KeyEvent.VK_SUN_INSERT),
+    VK_SUN_CUT(NativeKeyEvent.VC_SUN_CUT, KeyEvent.VK_SUN_CUT),*/
+    VK_UNDEFINED(NativeKeyEvent.VC_UNDEFINED, KeyEvent.VK_UNDEFINED);
+
+    private int key;
+    private int value;
+
+    KeyCode(int key, int value) {
+        this.key = key;
+        this.value = value;
+    }
+
+    public static int getValue(int key) {
+        for (KeyCode oKey : KeyCode.values()) {
+            if (key == oKey.key) {
+                return oKey.value;
+            }
+        }
+        return -1;
+    }
+}
