@@ -16,7 +16,7 @@
 
 ## 安装与使用
 
-下载[EXE]()程序，点击exe程序直接运行
+下载[EXE](https://github.com/lightbc/Record-X/releases)程序，点击exe程序直接运行
 
 ## 贡献者
 [lightbc](https://www.cnblogs.com/lightbc)
