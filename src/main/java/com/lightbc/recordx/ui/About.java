@@ -59,7 +59,7 @@ public class About {
             URL url = new URL(BLOG_URL);
             desktop.browse(url.toURI());
         } catch (IOException | URISyntaxException e) {
-            e.printStackTrace();
+            System.err.printf("打开博客主页失败：%s", e.getMessage());
         }
     }
 

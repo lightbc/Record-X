@@ -190,16 +190,18 @@ public class MenuUtil {
     public void run() {
         if (recordX != null) {
             if (recordX.getRecordType() == -1) {
-                String input = JOptionPane.showInputDialog("请输入循环次数：");
-                TableModel model = recordX.getRecordTable().getModel();
-                int count = 1;
-                try {
-                    count = Integer.parseInt(input);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
                 reloadData();
-                RobotUtil.getInstance().robot(model, count);
+                SwingUtilities.invokeLater(() -> {
+                    String input = JOptionPane.showInputDialog("请输入运行次数：");
+                    TableModel model = recordX.getRecordTable().getModel();
+                    int count = -1;
+                    try {
+                        count = Integer.parseInt(input);
+                    } catch (Exception e) {
+                        System.err.printf("运行次数类型错误：%s", e.getMessage());
+                    }
+                    RobotUtil.getInstance().robot(model, count);
+                });
             } else if (recordX.getRecordType() > 0) {
                 JOptionPane.showMessageDialog(null, "请先结束记录");
             } else {

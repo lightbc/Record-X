@@ -79,7 +79,7 @@ public class FileUtil {
             }
             specificLines.forEach(line -> builder.append(line).append("\n"));
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.printf("数据读取失败：%s", e.getMessage());
         }
         return builder.toString();
     }

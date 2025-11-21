@@ -26,7 +26,7 @@ public class RobotUtil {
         try {
             ROBOT = new Robot();
         } catch (AWTException e) {
-            e.printStackTrace();
+            System.err.printf("创建自动化对象失败：%s", e.getMessage());
         }
     }
 
@@ -58,8 +58,8 @@ public class RobotUtil {
                     String log = (String) model.getValueAt(j, 0);
                     executeRobot(log, getDelay(j, rows, model));
                 }
-                // 每次间隔500ms
-                ROBOT.delay(500);
+                // 每次间隔2s
+                ROBOT.delay(2000);
             }
         }
     }
