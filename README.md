@@ -1,5 +1,6 @@
 # Record-X
 > 记录电脑操作，执行重复操作
+![动图](src/main/resources/images/record-x.gif)
 
 ## 目录
 
