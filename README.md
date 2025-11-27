@@ -1,6 +1,5 @@
 # Record-X
 > 记录电脑操作，执行重复操作
-![](src/main/resources/images/win.png)
 
 ## 目录
 
